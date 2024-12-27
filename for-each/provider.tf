@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "terraform-prabhas3"
-    key    = "remote-state-demo"
+    key    = "for-each"
     region = "us-east-1"
     dynamodb_table = "prabhak-lock"
   }
